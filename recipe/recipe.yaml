@@ -1,5 +1,5 @@
 context:
-  version: "0.0.1"
+  version: "0.0.2"
   python_min: "3.12"
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/LiuGaoyong/ArrayFF/releases/download/v${{ version }}/arrayff-${{ version }}.tar.gz
-  sha256: 9002e0aa31eedaab8943fa4ccb173741f757b5882ad0009d3bf42700d4cc7cfa
+  sha256: bb2e8a969694e3c5cd6c7ddd03ff97b692174787b7e368beb6e7ad2048e61dc8
 
 build:
   noarch: python
